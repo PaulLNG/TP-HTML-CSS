@@ -1,0 +1,6 @@
+Compilé fichier .scss 
+
+commande :
+
+sass --watch "chemin absolu du fichier"
+sass -v = vérifier version de sass
