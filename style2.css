@@ -23,6 +23,11 @@ body h3 {
   font-size: 15px;
   margin: 10px; }
 
+.blocContact {
+  height: 300px;
+  background-color: gainsboro;
+  padding: 20px; }
+
 .button input {
   background-color: white;
   border: solid #e33f0e 3px;
@@ -89,8 +94,21 @@ a:hover {
   margin-top: 50px;
   font-size: 27px; }
 
-.textPresentationDetail {
+.titreContact {
   font-size: 22px; }
+
+.textPresentationDetail {
+  font-size: 21px;
+  font-style: normal; }
+
+.blocInfos {
+  width: 450px; }
+
+.blocFormations {
+  width: 700px; }
+
+.blocExperience {
+  width: 800px; }
 
 .flex {
   display: flex; }
