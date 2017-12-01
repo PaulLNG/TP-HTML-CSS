@@ -1,5 +1,7 @@
 @import "variablesTest";
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Spinnaker');
+$colorImport: $colorTest;
+
 
 $colorFont: #303030;
 $colorBackground: white;
@@ -7,7 +9,7 @@ $typeFont : Spinnaker, sans-serif , verdana;
 $colorBorder: grey;
 $colorFontTitle: #E33F0E;
 
-$colorImport: $colorTest;
+
 
 @mixin border {
   border: solid rgba(227, 63, 14, 1) 3px;
@@ -53,7 +55,7 @@ font-size: 15px;
 {
 	
 	
-	height: 300px;
+	height: 315px;
 	background-color: rgba(220, 220, 220, 1);
 	padding: 20px;
 	
@@ -163,7 +165,11 @@ a:hover{
 	
 }
 
-
+.icone
+{
+	margin-top: -35px;
+	
+}
 .titreContact
 {
 	font-size: 22px;
@@ -234,6 +240,104 @@ a:hover{
 	position: center;
 	margin-top: -5px;
 }
+
+a:link
+{
+	text-decoration:none;
+}
+
+
+ 
+.fb, .linkedin, .twitter, .youtube
+{ display: inline-block; background: url('sprite/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.fb { background-position: -5px -0px; width: 50px; height: 50px; }
+.linkedin { background-position: -60px -0px; width: 50px; height: 50px; }
+.twitter { background-position: -5px -55px; width: 50px; height: 50px; }
+.youtube { background-position: -60px -55px; width: 50px; height: 50px; }
+
+
+
+
+
+@media print
+{
+	#navbar
+	{
+		display: none;
+		
+	}
+	
+	.presentation
+	{
+		margin-top: -60px; 
+		padding: 10px;
+		margin-left: 0px;
+		margin-right:0px;
+	}
+	
+	.blocImage img
+	{
+	
+	position: absolute;
+	left: 700px;
+	top: 150px;
+	margin-bottom: 20px;
+	padding: 20px;
+	
+	
+	}
+	
+	.barreTitre
+	{
+		left: 30px;
+	}
+	
+	.textPresentationSimple
+	{
+	
+		
+		margin-bottom: 50px;
+	
+	}
+	
+	.textHeader
+	{
+		margin-left: 30px;
+		margin-top: 50px;
+	
+	}
+	
+	.button
+	{
+		display: none;
+	}
+	
+	.blocContact 
+	{
+	
+	margin-top: -60px;
+	height: 300px;
+	background-color: rgba(220, 220, 220, 1);
+	padding: 20px;
+	
+	}
+	
+	#social-network
+	{
+		display: none;
+	}
+	
+	footer
+	{
+		margin-top: -125px;
+	}
+		
+}
+
+
+
+
 
 
 

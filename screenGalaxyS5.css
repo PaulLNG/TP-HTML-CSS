@@ -1,0 +1,10 @@
+@media screen and (max-width: 360px) and (max-height: 640px) {
+.bloc 
+	{
+		display:block;
+		clear:both;
+	}
+
+
+
+}
